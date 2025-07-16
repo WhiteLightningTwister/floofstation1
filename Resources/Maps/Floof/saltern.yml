@@ -69240,8 +69240,6 @@ entities:
       pos: -36.5,41.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 19284
   - uid: 22311
@@ -69251,8 +69249,6 @@ entities:
       pos: -35.5,41.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 19284
   - uid: 22546
