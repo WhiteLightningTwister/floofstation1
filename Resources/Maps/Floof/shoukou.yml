@@ -4105,13 +4105,13 @@ entities:
             0: 65535
           -10,-10:
             0: 63232
-            6: 14
-          -10,-12:
             3: 14
-            4: 3584
-          -10,-11:
+          -10,-12:
             4: 14
             5: 3584
+          -10,-11:
+            5: 14
+            6: 3584
           -9,-13:
             0: 52428
           0,-13:
@@ -4185,7 +4185,7 @@ entities:
           -10,-17:
             0: 56773
           -10,-13:
-            4: 3598
+            5: 3598
           -9,-16:
             0: 56797
           -9,-15:
@@ -5961,6 +5961,21 @@ entities:
           temperature: 293.15
           moles:
           - 0
+          - 6666.982
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 0
           - 0
           - 0
           - 6666.982
@@ -5992,21 +6007,6 @@ entities:
           moles:
           - 6666.982
           - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 0
-          - 6666.982
           - 0
           - 0
           - 0
@@ -8258,7 +8258,7 @@ entities:
       pos: -36.5,-36.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -7450.507
+      secondsUntilStateChange: -7711.21
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8486,7 +8486,7 @@ entities:
       pos: -10.5,-55.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -10056.404
+      secondsUntilStateChange: -10317.107
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8644,7 +8644,7 @@ entities:
       pos: -32.5,-41.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -6879.3267
+      secondsUntilStateChange: -7140.03
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8840,7 +8840,7 @@ entities:
       pos: -20.5,-13.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -33136.973
+      secondsUntilStateChange: -33397.676
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9254,7 +9254,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -60986.887
+      secondsUntilStateChange: -61247.59
       state: Opening
   - uid: 7972
     components:
@@ -9449,7 +9449,7 @@ entities:
       pos: 13.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -12342.737
+      secondsUntilStateChange: -12603.44
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9541,7 +9541,7 @@ entities:
       pos: -4.5,-3.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -17198.164
+      secondsUntilStateChange: -17458.867
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -10687,7 +10687,7 @@ entities:
       pos: 81.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -55455.344
+      secondsUntilStateChange: -55716.047
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -10852,7 +10852,7 @@ entities:
       pos: 6.5,19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -21547.428
+      secondsUntilStateChange: -21808.13
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11082,7 +11082,7 @@ entities:
       pos: 10.5,18.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -21370.96
+      secondsUntilStateChange: -21631.664
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31292,6 +31292,206 @@ entities:
     components:
     - type: Transform
       pos: 38.5,-62.5
+      parent: 2
+  - uid: 26126
+    components:
+    - type: Transform
+      pos: 45.5,5.5
+      parent: 2
+  - uid: 26127
+    components:
+    - type: Transform
+      pos: 46.5,5.5
+      parent: 2
+  - uid: 26128
+    components:
+    - type: Transform
+      pos: 47.5,5.5
+      parent: 2
+  - uid: 26129
+    components:
+    - type: Transform
+      pos: 48.5,5.5
+      parent: 2
+  - uid: 26130
+    components:
+    - type: Transform
+      pos: 49.5,5.5
+      parent: 2
+  - uid: 26131
+    components:
+    - type: Transform
+      pos: 49.5,6.5
+      parent: 2
+  - uid: 26132
+    components:
+    - type: Transform
+      pos: 49.5,7.5
+      parent: 2
+  - uid: 26133
+    components:
+    - type: Transform
+      pos: 49.5,8.5
+      parent: 2
+  - uid: 26134
+    components:
+    - type: Transform
+      pos: 49.5,9.5
+      parent: 2
+  - uid: 26135
+    components:
+    - type: Transform
+      pos: 50.5,8.5
+      parent: 2
+  - uid: 26136
+    components:
+    - type: Transform
+      pos: 51.5,8.5
+      parent: 2
+  - uid: 26137
+    components:
+    - type: Transform
+      pos: 42.5,7.5
+      parent: 2
+  - uid: 26138
+    components:
+    - type: Transform
+      pos: 42.5,8.5
+      parent: 2
+  - uid: 26139
+    components:
+    - type: Transform
+      pos: 42.5,9.5
+      parent: 2
+  - uid: 26140
+    components:
+    - type: Transform
+      pos: 42.5,10.5
+      parent: 2
+  - uid: 26141
+    components:
+    - type: Transform
+      pos: 43.5,10.5
+      parent: 2
+  - uid: 26142
+    components:
+    - type: Transform
+      pos: 44.5,10.5
+      parent: 2
+  - uid: 26143
+    components:
+    - type: Transform
+      pos: 66.5,2.5
+      parent: 2
+  - uid: 26144
+    components:
+    - type: Transform
+      pos: 66.5,1.5
+      parent: 2
+  - uid: 26145
+    components:
+    - type: Transform
+      pos: 66.5,0.5
+      parent: 2
+  - uid: 26146
+    components:
+    - type: Transform
+      pos: 66.5,-0.5
+      parent: 2
+  - uid: 26147
+    components:
+    - type: Transform
+      pos: 66.5,-1.5
+      parent: 2
+  - uid: 26148
+    components:
+    - type: Transform
+      pos: 66.5,-2.5
+      parent: 2
+  - uid: 26149
+    components:
+    - type: Transform
+      pos: 66.5,-3.5
+      parent: 2
+  - uid: 26150
+    components:
+    - type: Transform
+      pos: 66.5,-4.5
+      parent: 2
+  - uid: 26151
+    components:
+    - type: Transform
+      pos: 65.5,-4.5
+      parent: 2
+  - uid: 26152
+    components:
+    - type: Transform
+      pos: 64.5,-4.5
+      parent: 2
+  - uid: 26153
+    components:
+    - type: Transform
+      pos: 63.5,-4.5
+      parent: 2
+  - uid: 26154
+    components:
+    - type: Transform
+      pos: 67.5,-0.5
+      parent: 2
+  - uid: 26155
+    components:
+    - type: Transform
+      pos: 68.5,-0.5
+      parent: 2
+  - uid: 26156
+    components:
+    - type: Transform
+      pos: 69.5,-0.5
+      parent: 2
+  - uid: 26157
+    components:
+    - type: Transform
+      pos: 70.5,-0.5
+      parent: 2
+  - uid: 26158
+    components:
+    - type: Transform
+      pos: 71.5,-0.5
+      parent: 2
+  - uid: 26159
+    components:
+    - type: Transform
+      pos: 71.5,-1.5
+      parent: 2
+  - uid: 26160
+    components:
+    - type: Transform
+      pos: 71.5,-2.5
+      parent: 2
+  - uid: 26161
+    components:
+    - type: Transform
+      pos: 71.5,-3.5
+      parent: 2
+  - uid: 26162
+    components:
+    - type: Transform
+      pos: 71.5,-4.5
+      parent: 2
+  - uid: 26163
+    components:
+    - type: Transform
+      pos: 70.5,-4.5
+      parent: 2
+  - uid: 26164
+    components:
+    - type: Transform
+      pos: 69.5,-4.5
+      parent: 2
+  - uid: 26165
+    components:
+    - type: Transform
+      pos: 68.5,-4.5
       parent: 2
 - proto: CableApcStack1
   entities:
@@ -56014,12 +56214,20 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 79.5,-8.5
       parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        19389:
+        - ArtifactAnalyzerSender: ArtifactAnalyzerReceiver
   - uid: 15738
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 79.5,-9.5
       parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        19390:
+        - ArtifactAnalyzerSender: ArtifactAnalyzerReceiver
 - proto: ComputerCargoBounty
   entities:
   - uid: 5918
@@ -67283,7 +67491,7 @@ entities:
       pos: 9.5,27.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -68390.12
+      secondsUntilStateChange: -68650.82
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -67532,7 +67740,7 @@ entities:
       pos: -36.5,-22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -282768.1
+      secondsUntilStateChange: -283028.8
       state: Closing
   - uid: 5912
     components:
@@ -68165,7 +68373,7 @@ entities:
       pos: -40.5,-0.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -212997.02
+      secondsUntilStateChange: -213257.72
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -120845,7 +121053,7 @@ entities:
       pos: -1.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -27531.988
+      secondsUntilStateChange: -27792.691
       state: Opening
   - uid: 23486
     components:
@@ -120853,7 +121061,7 @@ entities:
       pos: -2.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -17214.832
+      secondsUntilStateChange: -17475.535
       state: Opening
 - proto: PartRodMetal
   entities:
@@ -164125,7 +164333,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -139254.97
+      secondsUntilStateChange: -139515.67
       state: Opening
   - uid: 10028
     components:
@@ -164540,7 +164748,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -47376.188
+      secondsUntilStateChange: -47636.89
       state: Opening
 - proto: Window
   entities:
