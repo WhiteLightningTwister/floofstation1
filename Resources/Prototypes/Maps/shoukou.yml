@@ -25,7 +25,6 @@
           Passenger: [ -1, -1 ]
           ServiceWorker: [ 3, 3]
           Reporter: [ 1, 1 ]
-          Lawyer: [ 1, 1 ]
           Bartender: [ 2, 2 ]
           Botanist: [ 2, 2 ]
           MartialArtist: [ 2, 2 ]
