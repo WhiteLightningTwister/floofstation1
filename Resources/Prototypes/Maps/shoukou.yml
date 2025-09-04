@@ -83,9 +83,4 @@
           SalvageSpecialist: [ 5, 5 ]
           MailCarrier: [ 2, 2 ]
           CargoTechnician: [ 3, 3 ]
-          # Justice added by FloofStation
-          ChiefJustice: [ 1, 1 ] #FloofStation
-          Clerk: [ 1, 1 ] #FloofStation
-          Lawyer: [ 2, 2 ] #FloofStation
-          Prosecutor: [ 1, 1 ] #FloofStation
           
