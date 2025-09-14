@@ -7796,3 +7796,46 @@ Entries:
   id: 826
   time: '2025-09-09T06:05:51.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1405
+- author: M3739
+  changes:
+    - type: Remove
+      message: Removed Talos from map rotation.
+  id: 827
+  time: '2025-09-10T18:19:47.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1408
+- author: ItsDzordz
+  changes:
+    - type: Add
+      message: 3 new plushies
+    - type: Fix
+      message: The bunny stress relief plushie is now able to intake fluids.
+  id: 828
+  time: '2025-09-11T21:02:25.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1380
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: The silly resomi plushie will no longer drop from every prize ball.
+  id: 829
+  time: '2025-09-14T00:06:16.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1422
+- author: Memeji
+  changes:
+    - type: Add
+      message: '''Boykisser Energy'' drink.'
+  id: 830
+  time: '2025-09-14T00:17:13.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1416
+- author: M3739
+  changes:
+    - type: Add
+      message: >-
+        The evac shuttle vote now shows feedback showing the results of the
+        vote.
+    - type: Fix
+      message: >-
+        The evac shuttle vote no longer ceases operations if the first vote's
+        winner is 'stay.'
+  id: 831
+  time: '2025-09-14T01:33:47.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1418
