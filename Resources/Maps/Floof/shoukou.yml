@@ -8351,7 +8351,7 @@ entities:
       pos: 34.5,-5.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -29930.95
+      secondsUntilStateChange: -30701.2
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8391,7 +8391,7 @@ entities:
       pos: -36.5,-36.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -60700.87
+      secondsUntilStateChange: -61471.12
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8601,34 +8601,6 @@ entities:
     - type: Transform
       pos: 41.5,-28.5
       parent: 2
-- proto: AirlockCargo
-  entities:
-  - uid: 9596
-    components:
-    - type: Transform
-      pos: -10.5,-59.5
-      parent: 2
-  - uid: 9868
-    components:
-    - type: Transform
-      pos: -9.5,-55.5
-      parent: 2
-  - uid: 9876
-    components:
-    - type: Transform
-      pos: -10.5,-55.5
-      parent: 2
-    - type: Door
-      secondsUntilStateChange: -63306.77
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
-  - uid: 16568
-    components:
-    - type: Transform
-      pos: -9.5,-59.5
-      parent: 2
 - proto: AirlockCargoGlass
   entities:
   - uid: 16564
@@ -8701,6 +8673,26 @@ entities:
       parent: 2
 - proto: AirlockCargoLocked
   entities:
+  - uid: 9596
+    components:
+    - type: Transform
+      pos: -9.5,-59.5
+      parent: 2
+  - uid: 9773
+    components:
+    - type: Transform
+      pos: -9.5,-55.5
+      parent: 2
+  - uid: 9868
+    components:
+    - type: Transform
+      pos: -10.5,-55.5
+      parent: 2
+  - uid: 9876
+    components:
+    - type: Transform
+      pos: -10.5,-59.5
+      parent: 2
   - uid: 16573
     components:
     - type: Transform
@@ -8777,7 +8769,7 @@ entities:
       pos: -32.5,-41.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -60129.69
+      secondsUntilStateChange: -60899.94
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8973,7 +8965,7 @@ entities:
       pos: -20.5,-13.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -86387.336
+      secondsUntilStateChange: -87157.586
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9246,7 +9238,7 @@ entities:
       pos: -25.5,9.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -16854.115
+      secondsUntilStateChange: -17624.365
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 2
@@ -9413,7 +9405,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -114237.25
+      secondsUntilStateChange: -115007.5
       state: Opening
   - uid: 7972
     components:
@@ -9608,7 +9600,7 @@ entities:
       pos: 13.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -65593.1
+      secondsUntilStateChange: -66363.35
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9712,7 +9704,7 @@ entities:
       pos: -4.5,-3.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -70448.53
+      secondsUntilStateChange: -71218.78
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -10891,7 +10883,7 @@ entities:
       pos: 81.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -108705.7
+      secondsUntilStateChange: -109475.95
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11062,7 +11054,7 @@ entities:
       pos: 6.5,19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -74797.79
+      secondsUntilStateChange: -75568.04
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11294,7 +11286,7 @@ entities:
       pos: 10.5,18.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -74621.33
+      secondsUntilStateChange: -75391.58
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -13268,6 +13260,8 @@ entities:
       parent: 2
   - uid: 22012
     components:
+    - type: MetaData
+      name: Logistics Maint's APC
     - type: Transform
       pos: -32.5,-56.5
       parent: 2
@@ -14209,6 +14203,26 @@ entities:
     components:
     - type: Transform
       pos: 28.5,-42.5
+      parent: 2
+  - uid: 26913
+    components:
+    - type: Transform
+      pos: 39.5,-42.5
+      parent: 2
+  - uid: 26914
+    components:
+    - type: Transform
+      pos: 37.5,-45.5
+      parent: 2
+  - uid: 26915
+    components:
+    - type: Transform
+      pos: 39.5,-46.5
+      parent: 2
+  - uid: 26916
+    components:
+    - type: Transform
+      pos: 45.5,-46.5
       parent: 2
 - proto: BarricadeDirectional
   entities:
@@ -57646,6 +57660,13 @@ entities:
     - type: Transform
       pos: -3.3652787,4.4398217
       parent: 2
+- proto: ClothingBeltUtility
+  entities:
+  - uid: 26920
+    components:
+    - type: Transform
+      pos: 46.825512,-43.50678
+      parent: 2
 - proto: ClothingBeltUtilityFilled
   entities:
   - uid: 4969
@@ -57670,6 +57691,24 @@ entities:
     - type: Transform
       pos: -8.591147,-22.271915
       parent: 2
+- proto: ClothingHandsGlovesColorYellow
+  entities:
+  - uid: 15635
+    components:
+    - type: Transform
+      pos: 38.634853,-43.189392
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+  - uid: 26912
+    components:
+    - type: Transform
+      pos: 44.18031,-45.69037
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: ClothingHandsGlovesColorYellowBudget
   entities:
   - uid: 26434
@@ -57821,6 +57860,16 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
+- proto: ClothingHeadHatGreysoft
+  entities:
+  - uid: 26919
+    components:
+    - type: MetaData
+      desc: The color of this hat is unknown. Having endured, endless strife and internal troubles, ragged and dirty it has stayed intact after all these years.
+      name: ancient cap
+    - type: Transform
+      pos: 39.8911,-43.58314
+      parent: 2
 - proto: ClothingHeadHatGreysoftFlipped
   entities:
   - uid: 4855
@@ -58318,6 +58367,20 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: ClothingUniformJumpsuitAncient
+  entities:
+  - uid: 26906
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 40.3786,-43.58314
+      parent: 2
+  - uid: 26918
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 43.43031,-45.577866
+      parent: 2
 - proto: ClothingUniformJumpsuitEngineeringHazard
   entities:
   - uid: 4908
@@ -60985,6 +61048,13 @@ entities:
     - type: NavMapBeacon
       color: '#EFB341FF'
       text: Supermatter storage shed
+  - uid: 26911
+    components:
+    - type: Transform
+      pos: 42.5,-43.5
+      parent: 2
+    - type: NavMapBeacon
+      text: Tider Den
 - proto: DefaultStationBeaconAISatellite
   entities:
   - uid: 26034
@@ -70641,7 +70711,7 @@ entities:
       pos: 9.5,27.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -121640.48
+      secondsUntilStateChange: -122410.73
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -70911,7 +70981,7 @@ entities:
       pos: -36.5,-22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -336018.47
+      secondsUntilStateChange: -336788.72
       state: Closing
   - uid: 5912
     components:
@@ -71545,7 +71615,7 @@ entities:
       pos: -40.5,-0.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -266247.38
+      secondsUntilStateChange: -267017.62
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -124711,6 +124781,11 @@ entities:
     - type: Transform
       pos: -4.5,-63.5
       parent: 2
+  - uid: 26901
+    components:
+    - type: Transform
+      pos: 80.5,1.5
+      parent: 2
 - proto: NitrousOxideTankFilled
   entities:
   - uid: 9657
@@ -124875,6 +124950,11 @@ entities:
     components:
     - type: Transform
       pos: -5.5,-63.5
+      parent: 2
+  - uid: 26900
+    components:
+    - type: Transform
+      pos: 80.5,-1.5
       parent: 2
 - proto: PaintingBlunt
   entities:
@@ -125252,7 +125332,7 @@ entities:
       pos: -1.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -80782.36
+      secondsUntilStateChange: -81552.61
       state: Opening
   - uid: 23486
     components:
@@ -125260,7 +125340,7 @@ entities:
       pos: -2.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -70465.195
+      secondsUntilStateChange: -71235.445
       state: Opening
 - proto: PartRodMetal
   entities:
@@ -125582,11 +125662,11 @@ entities:
       parent: 2
 - proto: PosterBroken
   entities:
-  - uid: 9773
+  - uid: 15634
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 40.5,-42.5
+      rot: 3.141592653589793 rad
+      pos: 38.5,-42.5
       parent: 2
 - proto: PosterContrabandAtmosiaDeclarationIndependence
   entities:
@@ -125617,6 +125697,14 @@ entities:
     components:
     - type: Transform
       pos: 28.5,-17.5
+      parent: 2
+- proto: PosterContrabandGreyTide
+  entities:
+  - uid: 15632
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 40.5,-42.5
       parent: 2
 - proto: PosterContrabandHaveaPuff
   entities:
@@ -144188,6 +144276,26 @@ entities:
     - type: Transform
       pos: 1.9681275,-3.6084273
       parent: 2
+- proto: SprayPaintWhite
+  entities:
+  - uid: 15633
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 40.903988,-43.352886
+      parent: 2
+  - uid: 26909
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 41.372738,-43.165386
+      parent: 2
+  - uid: 26910
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 40.622738,-45.715385
+      parent: 2
 - proto: StairDark
   entities:
   - uid: 11655
@@ -144773,6 +144881,21 @@ entities:
     components:
     - type: Transform
       pos: -46.5,-36.5
+      parent: 2
+  - uid: 26902
+    components:
+    - type: Transform
+      pos: 82.5,-18.5
+      parent: 2
+  - uid: 26903
+    components:
+    - type: Transform
+      pos: 81.5,-18.5
+      parent: 2
+  - uid: 26904
+    components:
+    - type: Transform
+      pos: 78.5,3.5
       parent: 2
 - proto: StripperPole
   entities:
@@ -161121,30 +161244,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 72.5,2.5
       parent: 2
-  - uid: 15632
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 61.5,2.5
-      parent: 2
-  - uid: 15633
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 62.5,2.5
-      parent: 2
-  - uid: 15634
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 61.5,3.5
-      parent: 2
-  - uid: 15635
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 60.5,3.5
-      parent: 2
   - uid: 15636
     components:
     - type: Transform
@@ -162263,6 +162362,11 @@ entities:
       rot: 3.141592653589793 rad
       pos: -30.5,-56.5
       parent: 2
+  - uid: 16568
+    components:
+    - type: Transform
+      pos: 60.5,3.5
+      parent: 2
   - uid: 16627
     components:
     - type: Transform
@@ -163174,6 +163278,21 @@ entities:
     components:
     - type: Transform
       pos: 29.5,-59.5
+      parent: 2
+  - uid: 26905
+    components:
+    - type: Transform
+      pos: 62.5,2.5
+      parent: 2
+  - uid: 26907
+    components:
+    - type: Transform
+      pos: 61.5,3.5
+      parent: 2
+  - uid: 26908
+    components:
+    - type: Transform
+      pos: 61.5,2.5
       parent: 2
 - proto: WallReinforcedRust
   entities:
@@ -169243,6 +169362,14 @@ entities:
     - type: Transform
       pos: 85.5,8.5
       parent: 2
+- proto: WelderIndustrial
+  entities:
+  - uid: 26917
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 42.668865,-45.652466
+      parent: 2
 - proto: WeldingFuelTankFull
   entities:
   - uid: 13290
@@ -169433,7 +169560,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -192505.33
+      secondsUntilStateChange: -193275.58
       state: Opening
   - uid: 10028
     components:
@@ -169848,7 +169975,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -100626.555
+      secondsUntilStateChange: -101396.805
       state: Opening
   - uid: 26858
     components:
