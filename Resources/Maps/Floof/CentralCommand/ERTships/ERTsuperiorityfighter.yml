@@ -3168,6 +3168,8 @@ entities:
         142:
         - Pressed: Toggle
         - Pressed: Trigger
+        131:
+        - Pressed: Toggle
   - uid: 527
     components:
     - type: Transform
@@ -4229,7 +4231,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -2291.8623
+      secondsUntilStateChange: -5344.3267
       state: Opening
   - uid: 706
     components:

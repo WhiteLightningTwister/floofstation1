@@ -68,56 +68,56 @@ entities:
             color: '#00FF00FF'
             id: BrickTileDarkBox
           decals:
-            38: 0,1
+            0: 0,1
         - node:
             color: '#37E1378C'
             id: CheckerNESW
           decals:
-            41: 0,-1
-            42: 0,-2
-            44: 1,-2
-            46: 1,-4
-            47: 1,-5
-            48: 0,-5
-            51: -1,-2
-            52: -1,-3
-            53: -1,-4
-            54: -1,-5
-            65: 1,-3
+            1: 0,-1
+            2: 0,-2
+            3: 1,-2
+            4: 1,-4
+            5: 1,-5
+            6: 0,-5
+            7: -1,-2
+            8: -1,-3
+            9: -1,-4
+            10: -1,-5
+            21: 1,-3
         - node:
             color: '#FFFFFFFF'
             id: MiniTileDarkCornerSe
           decals:
-            55: -1,-1
+            11: -1,-1
         - node:
             color: '#FFFFFFFF'
             id: MiniTileDarkCornerSw
           decals:
-            56: 1,-1
+            12: 1,-1
         - node:
             color: '#FFFFFFFF'
             id: MiniTileDarkInnerSe
           decals:
-            63: -2,-1
+            19: -2,-1
         - node:
             color: '#FFFFFFFF'
             id: MiniTileDarkInnerSw
           decals:
-            64: 2,-1
+            20: 2,-1
         - node:
             color: '#FFFFFFFF'
             id: MiniTileDarkLineE
           decals:
-            60: -2,-2
-            61: -2,-3
-            62: -2,-4
+            16: -2,-2
+            17: -2,-3
+            18: -2,-4
         - node:
             color: '#FFFFFFFF'
             id: MiniTileDarkLineW
           decals:
-            57: 2,-2
-            58: 2,-3
-            59: 2,-4
+            13: 2,-2
+            14: 2,-3
+            15: 2,-4
     - type: RadiationGridResistance
     - type: GridAtmosphere
       version: 2

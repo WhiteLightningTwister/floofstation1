@@ -1582,7 +1582,7 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: PoweredlightExterior
+- proto: PoweredLightBlueInterior
   entities:
   - uid: 324
     components:

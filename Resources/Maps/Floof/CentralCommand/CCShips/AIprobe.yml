@@ -773,21 +773,22 @@ entities:
       rot: 3.141592653589793 rad
       pos: 1.5,-0.5
       parent: 1
-- proto: FaxMachineBase
-  entities:
-  - uid: 196
-    components:
-    - type: Transform
-      pos: -0.5,-0.5
-      parent: 1
-    - type: FaxMachine
-      name: CC-Probe
 - proto: GeneratorWallmountAPU
   entities:
+  - uid: 9
+    components:
+    - type: Transform
+      pos: -1.5,0.5
+      parent: 1
   - uid: 198
     components:
     - type: Transform
       pos: 0.5,-0.5
+      parent: 1
+  - uid: 235
+    components:
+    - type: Transform
+      pos: 2.5,0.5
       parent: 1
 - proto: Grille
   entities:
@@ -886,6 +887,13 @@ entities:
     - type: Transform
       pos: -2.5,2.5
       parent: 1
+- proto: Gyroscope
+  entities:
+  - uid: 197
+    components:
+    - type: Transform
+      pos: -0.5,-0.5
+      parent: 1
 - proto: PlayerStationAiEmpty
   entities:
   - uid: 31
@@ -914,13 +922,6 @@ entities:
     components:
     - type: Transform
       pos: 3.5,0.5
-      parent: 1
-- proto: Rack
-  entities:
-  - uid: 197
-    components:
-    - type: Transform
-      pos: -0.5,-0.5
       parent: 1
 - proto: Railing
   entities:
@@ -1312,12 +1313,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 0.5,2.5
       parent: 1
-  - uid: 9
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 2.5,0.5
-      parent: 1
   - uid: 10
     components:
     - type: Transform
@@ -1363,7 +1358,6 @@ entities:
   - uid: 17
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
       pos: -1.5,0.5
       parent: 1
   - uid: 18
@@ -1401,6 +1395,11 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -2.5,0.5
+      parent: 1
+  - uid: 196
+    components:
+    - type: Transform
+      pos: 2.5,0.5
       parent: 1
 - proto: WallReinforcedDiagonal
   entities:
