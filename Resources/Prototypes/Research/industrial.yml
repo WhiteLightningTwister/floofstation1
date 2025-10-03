@@ -17,6 +17,7 @@
   - OreProcessorIndustrialMachineCircuitboard
   - ClothingMaskWeldingGas
   - SalvageExpeditionsComputerCircuitboard
+  - ClothingShoesBootsJump
 
 - type: technology
   id: AdvancedPowercells
@@ -57,6 +58,7 @@
   - ProtolatheHyperConvectionMachineCircuitboard
   - CircuitImprinterHyperConvectionMachineCircuitboard
   - SheetifierMachineCircuitboard
+  - WelderIndustrial # Floof
 
 - type: technology
   id: PowerGeneration
@@ -165,6 +167,7 @@
   cost: 10000
   recipeUnlocks:
     - WelderExperimental
+    - WelderIndustrialAdvanced # Floof
     - PowerDrill
     - JawsOfLife
     - BorgModuleAdvancedTool
