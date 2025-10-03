@@ -1,0 +1,119 @@
+- type: entity
+  id: BaseFriendlyPlayerMob
+  parent: StripableInventoryBase
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Hands
+    - type: ComplexInteraction
+    - type: Inventory
+      templateId: nakedcrew
+    - type: MailReceiver
+    - type: NpcFactionMember
+      factions:
+      - NanoTrasen
+    - type: Puller
+      needsHands: false
+    - type: Cuffable
+    - type: Prying
+      speedModifier: 0.8
+    - type: Loadout
+      prototypes:
+        - FriendlyPlayerMob
+
+- type: entity
+  name: laser raptor
+  id: MobLaserRaptorAdmeme
+  parent: [BaseFriendlyPlayerMob, MobLaserRaptor, StripableInventoryBase]
+  description: From the Viking age. Bizarrely civilized.
+  suffix: Admeme
+  components:
+    - type: Body # Shitmed Change
+      prototype: LaserRaptor
+    - type: HTN
+    - type: MeleeWeapon
+      soundHit:
+        collection: AlienClaw
+      animation: WeaponArcClaw
+      attackRate: 1.25
+      damage:
+        types:
+          Slash: 7.5
+      range: 1.75
+      rootTask:
+        task: SimpleRangedHostileCompound
+    - type: Sprite
+      drawdepth: Mobs
+      sprite: Mobs/Aliens/laser_raptor.rsi
+      layers:
+        - map: [ "enum.DamageStateVisualLayers.Base" ]
+          state: laser_raptor
+        - map: ["enum.HumanoidVisualLayers.Handcuffs"]
+    - type: DamageStateVisuals
+      states:
+        Alive:
+          Base: laser_raptor
+        Critical:
+          Base: laser_raptor_dead
+        Dead:
+          Base: laser_raptor_dead
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        100: Critical
+        200: Dead
+    - type: MovementSpeedModifier
+      baseWalkSpeed: 2.5
+      baseSprintSpeed: 6.5
+    - type: Tag
+      tags:
+        - CanPilot
+        - FootstepSound
+        - DoorBumpOpener
+        - UnathiEmotes
+    - type: InteractionPopup
+      successChance: 0.3
+      interactSuccessString: petting-success-reptile
+      interactFailureString: petting-failure-generic
+      interactSuccessSound:
+        path: /Audio/Animals/lizard_happy.ogg
+
+- type: entity
+  name: space dragon
+  id: SpaceDragonAdmeme
+  parent: [BaseFriendlyPlayerMob, MobDragonDungeon, StripableInventoryBase]
+  suffix: "Admeme"
+  description: A flying leviathan, loosely related to space carps. Surprisingly civilized.
+  components:
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      400: Dead
+  - type: NpcFactionMember
+    factions:
+    - Dragon
+    - NanoTrasen
+  - type: Sprite
+    sprite: Mobs/Aliens/Carps/dragon.rsi
+    noRot: true
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: alive
+    - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+      state: alive-unshaded
+      shader: unshaded
+    - map: ["enum.HumanoidVisualLayers.Handcuffs"]
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - DoorBumpOpener
+    - Carp
+    - UnathiEmotes
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Kobold
+    understands:
+    - TauCetiBasic
+    - Kobold
+    - Sign

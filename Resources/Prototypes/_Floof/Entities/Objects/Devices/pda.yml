@@ -74,6 +74,21 @@
         whitelist:
           tags:
             - BookSpaceLaw
-            - BookJusticeSop 
-            - BookSecuritySop 
+            - BookJusticeSop
+            - BookSecuritySop
       state: pda-detective
+
+#PDA for sapient animals
+- type: entity
+  parent: BasePDA
+  id: AnimalPlayerPDA
+  name: Scratched PDA
+  description: Has definitely been chewed on. Comes with a coordinate switch soldered into the open panel.
+  components:
+  - type: Pda
+    id: PassengerIDCard
+    state: pda
+  - type: PdaBorderColor
+    borderColor: "#ffe685"
+  - type: SuitSensor
+    activationSlot: id

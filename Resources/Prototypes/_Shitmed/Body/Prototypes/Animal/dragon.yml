@@ -16,6 +16,20 @@
     legs:
       part: LegsAnimal
       connections:
+      - right arm # Floof
+      - left arm # Floof
       - feet
+    right arm: # Floof
+      part: RightArmReptilian
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmReptilian
+      connections:
+      - left hand
+    right hand:
+      part: RightHandReptilian
+    left hand:
+      part: LeftHandReptilian
     feet:
       part: FeetAnimal
