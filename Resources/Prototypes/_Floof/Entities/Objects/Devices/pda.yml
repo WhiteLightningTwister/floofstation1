@@ -80,14 +80,27 @@
 
 #PDA for sapient animals
 - type: entity
-  parent: BasePDA
-  id: AnimalPlayerPDA
-  name: Scratched PDA
-  description: Has definitely been chewed on. Comes with a coordinate switch soldered into the open panel.
+  parent: BaseWidePDA
+  id: AnimalPDA
+  name: Beast PDA
+  description: Covered in scratches. A coordinate switch has been soldered onto the open circuits. Mind your claws around the wires.
   components:
+  - type: Sprite
+    sprite: _Floof/Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+      state: "pda"
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay_wide"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
   - type: Pda
     id: PassengerIDCard
-    state: pda
+    state: pda-animal
   - type: PdaBorderColor
     borderColor: "#ffe685"
   - type: SuitSensor
