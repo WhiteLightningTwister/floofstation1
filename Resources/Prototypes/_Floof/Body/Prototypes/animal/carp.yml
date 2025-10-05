@@ -1,0 +1,23 @@
+- type: body
+  id: CarpHands
+  name: carp
+  root: torso
+  slots:
+    torso:
+      part: TorsoAnimal
+      connections:
+      - tail
+      - right hand
+      - left hand
+      organs:
+        lungs: OrganSpaceAnimalLungs # Immunity to airloss
+        stomach: OrganAnimalStomach
+        liver: OrganAnimalLiver
+        heart: OrganSpaceAnimalHeart # Immunity to cold
+        kidneys: OrganAnimalKidneys
+    tail:
+      part: TailCarp
+    right hand:
+      part: RightHandFish
+    left hand:
+      part: LeftHandFish

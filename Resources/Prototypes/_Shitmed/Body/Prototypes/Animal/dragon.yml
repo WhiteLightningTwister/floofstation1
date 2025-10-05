@@ -20,16 +20,16 @@
       - left arm # Floof
       - feet
     right arm: # Floof
-      part: RightArmReptilian
+      part: RightArmFish
       connections:
       - right hand
     left arm:
-      part: LeftArmReptilian
+      part: LeftArmFish
       connections:
       - left hand
     right hand:
-      part: RightHandReptilian
+      part: RightHandFish
     left hand:
-      part: LeftHandReptilian
+      part: LeftHandFish
     feet:
       part: FeetAnimal

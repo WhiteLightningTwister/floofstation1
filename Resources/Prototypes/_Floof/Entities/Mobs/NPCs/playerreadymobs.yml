@@ -1,6 +1,7 @@
 - type: entity
   id: BaseFriendlyPlayerMob
   parent: StripableInventoryBase
+  suffix: Playable
   abstract: true
   categories: [ HideSpawnMenu ]
   components:
@@ -13,7 +14,6 @@
       factions:
       - NanoTrasen
     - type: Puller
-      needsHands: false
     - type: Cuffable
     - type: Prying
       speedModifier: 0.8
@@ -26,9 +26,8 @@
   id: MobLaserRaptorAdmeme
   parent: [BaseFriendlyPlayerMob, MobLaserRaptor, StripableInventoryBase]
   description: From the Viking age. Bizarrely civilized.
-  suffix: Admeme
   components:
-    - type: Body # Shitmed Change
+    - type: Body
       prototype: LaserRaptor
     - type: HTN
     - type: MeleeWeapon
@@ -42,6 +41,8 @@
       range: 1.75
       rootTask:
         task: SimpleRangedHostileCompound
+    - type: Puller
+      needsHands: false
     - type: Sprite
       drawdepth: Mobs
       sprite: Mobs/Aliens/laser_raptor.rsi
@@ -65,6 +66,8 @@
     - type: MovementSpeedModifier
       baseWalkSpeed: 2.5
       baseSprintSpeed: 6.5
+    - type: BodyEmotes
+      soundsID: ReptilianBodyEmotes
     - type: Tag
       tags:
         - CanPilot
@@ -82,7 +85,6 @@
   name: space dragon
   id: SpaceDragonAdmeme
   parent: [BaseFriendlyPlayerMob, MobDragonDungeon, StripableInventoryBase]
-  suffix: "Admeme"
   description: A flying leviathan, loosely related to space carps. Surprisingly civilized.
   components:
   - type: MobThresholds
@@ -93,6 +95,8 @@
     factions:
     - Dragon
     - NanoTrasen
+  - type: Puller
+    needsHands: false
   - type: Sprite
     sprite: Mobs/Aliens/Carps/dragon.rsi
     noRot: true
@@ -117,3 +121,37 @@
     - TauCetiBasic
     - Kobold
     - Sign
+
+- type: entity
+  name: space carp
+  id: MobCarpAdmeme
+  parent: [BaseFriendlyPlayerMob, BaseMobCarp, StripableInventoryBase]
+  components:
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      75: Crit
+      100: Dead
+  - type: NpcFactionMember
+    factions:
+    - Dragon
+    - NanoTrasen
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Aliens/Carps/space.rsi
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: alive
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - DoorBumpOpener
+    - Carp
+    - UnathiEmotes
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Kobold
+    understands:
+    - TauCetiBasic
+    - Kobold
