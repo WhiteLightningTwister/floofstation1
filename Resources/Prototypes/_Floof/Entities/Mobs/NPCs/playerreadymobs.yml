@@ -64,8 +64,8 @@
         100: Critical
         200: Dead
     - type: MovementSpeedModifier
-      baseWalkSpeed: 2.5
-      baseSprintSpeed: 6.5
+      baseWalkSpeed: 3
+      baseSprintSpeed: 6
     - type: BodyEmotes
       soundsID: ReptilianBodyEmotes
     - type: Tag
@@ -95,6 +95,12 @@
     factions:
     - Dragon
     - NanoTrasen
+  - type: NightVision
+    isActive: false
+    toggleAction: ToggleNightVision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
   - type: Puller
     needsHands: false
   - type: Sprite
@@ -124,24 +130,36 @@
 
 - type: entity
   name: space carp
-  id: MobCarpAdmeme
+  id: MobCarpFriendly
   parent: [BaseFriendlyPlayerMob, BaseMobCarp, StripableInventoryBase]
   components:
   - type: MobThresholds
     thresholds:
       0: Alive
-      75: Crit
-      100: Dead
+      75: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 5
   - type: NpcFactionMember
     factions:
     - Dragon
     - NanoTrasen
+  - type: ReplacementAccent
+    accent: generic
+    replacementChance: 1
+  - type: NightVision
+    isActive: false
+    toggleAction: ToggleNightVision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Carps/space.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive
+    - map: ["enum.HumanoidVisualLayers.Handcuffs"]
   - type: Tag
     tags:
     - CannotSuicide
