@@ -8160,3 +8160,12 @@ Entries:
   id: 866
   time: '2025-10-05T03:21:51.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1457
+- author: M3739
+  changes:
+    - type: Fix
+      message: >-
+        Shadekin markings that were intended to be colored, can now be actually
+        colored.
+  id: 867
+  time: '2025-10-12T02:56:41.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1480
