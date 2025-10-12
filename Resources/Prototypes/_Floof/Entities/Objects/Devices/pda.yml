@@ -109,7 +109,7 @@
     sprite: _Floof/Objects/Devices/pda.rsi
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
-      state: "pda"
+      state: "pda-animal"
     - state: "light_overlay"
       map: [ "enum.PdaVisualLayers.Flashlight" ]
       shader: "unshaded"

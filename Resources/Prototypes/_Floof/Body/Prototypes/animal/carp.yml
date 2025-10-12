@@ -6,9 +6,9 @@
     torso:
       part: TorsoAnimal
       connections:
+      - right hand # Floof
+      - left hand # Floof
       - tail
-      - right hand
-      - left hand
       organs:
         lungs: OrganSpaceAnimalLungs # Immunity to airloss
         stomach: OrganAnimalStomach

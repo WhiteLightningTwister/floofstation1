@@ -64,7 +64,7 @@
         100: Critical
         200: Dead
     - type: MovementSpeedModifier
-      baseWalkSpeed: 3
+      baseWalkSpeed: 2.5
       baseSprintSpeed: 6
     - type: BodyEmotes
       soundsID: ReptilianBodyEmotes
@@ -133,6 +133,8 @@
   id: MobCarpFriendly
   parent: [BaseFriendlyPlayerMob, BaseMobCarp, StripableInventoryBase]
   components:
+  - type: Body
+    prototype: CarpHands
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -156,6 +158,54 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Carps/space.rsi
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: alive
+    - map: ["enum.HumanoidVisualLayers.Handcuffs"]
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - DoorBumpOpener
+    - Carp
+    - UnathiEmotes
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Kobold
+    understands:
+    - TauCetiBasic
+    - Kobold
+
+- type: entity
+  name: sharkminnow
+  id: MobSharkFriendly
+  parent: [BaseFriendlyPlayerMob, MobShark, StripableInventoryBase]
+  components:
+  - type: Body
+    prototype: CarpHands
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      150: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 5
+  - type: NpcFactionMember
+    factions:
+    - Dragon
+    - NanoTrasen
+  - type: ReplacementAccent
+    accent: generic
+    replacementChance: 1
+  - type: NightVision
+    isActive: false
+    toggleAction: ToggleNightVision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Aliens/Carps/sharkminnow.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: alive
