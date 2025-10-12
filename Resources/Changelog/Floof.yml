@@ -8169,3 +8169,10 @@ Entries:
   id: 867
   time: '2025-10-12T02:56:41.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1480
+- author: Forzii
+  changes:
+    - type: Fix
+      message: Yip chat message when using the emote wheel has been restored.
+  id: 868
+  time: '2025-10-12T23:53:37.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1483
