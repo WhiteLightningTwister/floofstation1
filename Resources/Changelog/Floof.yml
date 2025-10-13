@@ -8183,3 +8183,10 @@ Entries:
   id: 869
   time: '2025-10-13T00:47:49.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1467
+- author: ashkitten
+  changes:
+    - type: Fix
+      message: Made doors less indecisive.
+  id: 870
+  time: '2025-10-13T01:44:41.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1481
