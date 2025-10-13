@@ -8206,3 +8206,12 @@ Entries:
   id: 872
   time: '2025-10-13T01:54:55.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1472
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Cleanbots will now prioritize unobstructed entities over obstructed
+        ones, instead of outright ignoring the latter.
+  id: 873
+  time: '2025-10-13T02:03:26.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1479
