@@ -8199,3 +8199,10 @@ Entries:
   id: 871
   time: '2025-10-13T01:48:24.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1482
+- author: Memeji
+  changes:
+    - type: Remove
+      message: Removed Energy Revolver from Security's Loadout
+  id: 872
+  time: '2025-10-13T01:54:55.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1472
