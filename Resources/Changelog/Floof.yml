@@ -8176,3 +8176,10 @@ Entries:
   id: 868
   time: '2025-10-12T23:53:37.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1483
+- author: Forzii
+  changes:
+    - type: Fix
+      message: Fixed hypnosis examine text and icons.
+  id: 869
+  time: '2025-10-13T00:47:49.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1467
