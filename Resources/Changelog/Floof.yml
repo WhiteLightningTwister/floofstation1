@@ -8215,3 +8215,12 @@ Entries:
   id: 873
   time: '2025-10-13T02:03:26.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1479
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        The mini-gravity generator circuitboard can once again be printed
+        correctly.
+  id: 874
+  time: '2025-10-13T02:05:42.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1477
