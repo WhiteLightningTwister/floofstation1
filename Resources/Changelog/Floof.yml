@@ -8224,3 +8224,10 @@ Entries:
   id: 874
   time: '2025-10-13T02:05:42.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1477
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Onis to speak Kagebun and Felinids to speak Sol Common.
+  id: 875
+  time: '2025-10-13T02:12:13.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1473
