@@ -8190,3 +8190,12 @@ Entries:
   id: 870
   time: '2025-10-13T01:44:41.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1481
+- author: ashkitten
+  changes:
+    - type: Add
+      message: >-
+        Emote keybind users rejoice! You can now bind right-click verbs to
+        keybinds that will activate on the hovered entity.
+  id: 871
+  time: '2025-10-13T01:48:24.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1482
