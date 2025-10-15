@@ -124,4 +124,12 @@
   - type: PdaBorderColor
     borderColor: "#ffe685"
   - type: SuitSensor
-    activationSlot: id
+    activationSlot: "pda"
+    randomMode: false
+    mode: SensorCords
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    transmitFrequencyId: SuitSensor
+  - type: WirelessNetworkConnection
+    range: 1200
+  - type: StationLimitedNetwork
