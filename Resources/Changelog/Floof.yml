@@ -8238,3 +8238,13 @@ Entries:
   id: 876
   time: '2025-10-19T21:48:32.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1490
+- author: wizden
+  changes:
+    - type: Add
+      message: >-
+        Almost every instrument has been updated to a new soundfont
+        (GeneralUser-GS), unifying all operating systems and massively improving
+        the sound of certain instruments.
+  id: 877
+  time: '2025-10-19T21:54:57.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1487
