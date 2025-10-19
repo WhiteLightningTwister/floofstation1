@@ -8231,3 +8231,10 @@ Entries:
   id: 875
   time: '2025-10-13T02:12:13.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1473
+- author: ashkitten
+  changes:
+    - type: Tweak
+      message: Slightly improved rainbow screen effect.
+  id: 876
+  time: '2025-10-19T21:48:32.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1490
