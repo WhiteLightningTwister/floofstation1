@@ -8283,3 +8283,10 @@ Entries:
   id: 881
   time: '2025-10-20T06:54:27.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1322
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added Med and Service Quadborg Jobs
+  id: 882
+  time: '2025-10-20T06:57:04.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1271
