@@ -8297,3 +8297,10 @@ Entries:
   id: 883
   time: '2025-10-20T07:07:01.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1362
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Artifacts do more things
+  id: 884
+  time: '2025-10-20T08:03:39.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1434
