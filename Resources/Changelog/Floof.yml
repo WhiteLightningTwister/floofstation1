@@ -8248,3 +8248,12 @@ Entries:
   id: 877
   time: '2025-10-19T21:54:57.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1487
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Many tweaks to Core to make the map more enjoyable & the singularity is
+        back.
+  id: 878
+  time: '2025-10-20T00:03:17.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1454
