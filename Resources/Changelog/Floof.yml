@@ -8304,3 +8304,12 @@ Entries:
   id: 884
   time: '2025-10-20T08:03:39.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1434
+- author: ashkitten
+  changes:
+    - type: Tweak
+      message: >-
+        Players are now limited to stuffing one thing in their face hole at a
+        time.
+  id: 885
+  time: '2025-10-21T18:08:37.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1486
