@@ -8160,3 +8160,156 @@ Entries:
   id: 866
   time: '2025-10-05T03:21:51.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1457
+- author: M3739
+  changes:
+    - type: Fix
+      message: >-
+        Shadekin markings that were intended to be colored, can now be actually
+        colored.
+  id: 867
+  time: '2025-10-12T02:56:41.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1480
+- author: Forzii
+  changes:
+    - type: Fix
+      message: Yip chat message when using the emote wheel has been restored.
+  id: 868
+  time: '2025-10-12T23:53:37.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1483
+- author: Forzii
+  changes:
+    - type: Fix
+      message: Fixed hypnosis examine text and icons.
+  id: 869
+  time: '2025-10-13T00:47:49.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1467
+- author: ashkitten
+  changes:
+    - type: Fix
+      message: Made doors less indecisive.
+  id: 870
+  time: '2025-10-13T01:44:41.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1481
+- author: ashkitten
+  changes:
+    - type: Add
+      message: >-
+        Emote keybind users rejoice! You can now bind right-click verbs to
+        keybinds that will activate on the hovered entity.
+  id: 871
+  time: '2025-10-13T01:48:24.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1482
+- author: Memeji
+  changes:
+    - type: Remove
+      message: Removed Energy Revolver from Security's Loadout
+  id: 872
+  time: '2025-10-13T01:54:55.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1472
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Cleanbots will now prioritize unobstructed entities over obstructed
+        ones, instead of outright ignoring the latter.
+  id: 873
+  time: '2025-10-13T02:03:26.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1479
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        The mini-gravity generator circuitboard can once again be printed
+        correctly.
+  id: 874
+  time: '2025-10-13T02:05:42.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1477
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Onis to speak Kagebun and Felinids to speak Sol Common.
+  id: 875
+  time: '2025-10-13T02:12:13.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1473
+- author: ashkitten
+  changes:
+    - type: Tweak
+      message: Slightly improved rainbow screen effect.
+  id: 876
+  time: '2025-10-19T21:48:32.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1490
+- author: wizden
+  changes:
+    - type: Add
+      message: >-
+        Almost every instrument has been updated to a new soundfont
+        (GeneralUser-GS), unifying all operating systems and massively improving
+        the sound of certain instruments.
+  id: 877
+  time: '2025-10-19T21:54:57.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1487
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Many tweaks to Core to make the map more enjoyable & the singularity is
+        back.
+  id: 878
+  time: '2025-10-20T00:03:17.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1454
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        More tweaks to train to fix some of power issues, air alarm issues and
+        other minor things like station beacons.
+  id: 879
+  time: '2025-10-20T00:03:58.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1448
+- author: Raikyr0
+  changes:
+    - type: Fix
+      message: Fixed Mech Drill attack speed
+  id: 880
+  time: '2025-10-20T06:51:40.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1488
+- author: ashkitten
+  changes:
+    - type: Tweak
+      message: >-
+        Significant improvements to kitsune fox polymorph. Now carries over
+        organs, chemicals, blood levels, attached leashes, and most trait
+        components from your character.
+  id: 881
+  time: '2025-10-20T06:54:27.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1322
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added Med and Service Quadborg Jobs
+  id: 882
+  time: '2025-10-20T06:57:04.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1271
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: Fixed not being able to break your vow twice as a mime.
+  id: 883
+  time: '2025-10-20T07:07:01.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1362
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Artifacts do more things
+  id: 884
+  time: '2025-10-20T08:03:39.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1434
+- author: ashkitten
+  changes:
+    - type: Tweak
+      message: >-
+        Players are now limited to stuffing one thing in their face hole at a
+        time.
+  id: 885
+  time: '2025-10-21T18:08:37.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1486
