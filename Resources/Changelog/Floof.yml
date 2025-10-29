@@ -8313,3 +8313,10 @@ Entries:
   id: 885
   time: '2025-10-21T18:08:37.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1486
+- author: PhosphateWithManyOs
+  changes:
+    - type: Add
+      message: Pirate hat and coat are now available in the loadout (YARR!)
+  id: 886
+  time: '2025-10-29T11:36:54.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1382
