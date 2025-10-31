@@ -72,6 +72,8 @@
   - type: loadout
     id: LoadoutOuterBomberAerostatic
   - type: loadout
+    id: LoadoutOuterJamrockBlazer # Floof
+  - type: loadout
     id: LoadoutOuterBomberPunkRed
   - type: loadout
     id: LoadingOuterCoatJacketLeather
@@ -97,7 +99,9 @@
     id: LoadoutOuterCoatAcidRaincoatMagenta
   - type: loadout
     id: LoadoutOuterCoatAcidRaincoatYellow
-  # start Floof
+# start Floof
+  - type: loadout
+    id: LoadoutPirateCoat
   - type: loadout
     id: LoadoutOuterPlagueSuit
   - type: loadout

@@ -20,6 +20,7 @@ loadout-category-JobsCommandHeadOfPersonnel = Head of Personnel
 loadout-category-JobsCommandAdminAssistant = Administrative Assistant
 loadout-category-JobsCommandBlueshieldOfficer = Blueshield Officer
 loadout-category-JobsCommandNanorep = Nanotrasen Representative
+loadout-category-JobsCommandMagistrate = Magistrate
 
 # Engineering
 loadout-category-JobsEngineering = Engineering
@@ -36,7 +37,8 @@ loadout-category-JobsEpistemicsAAUncategorized = All Epistemiologists
 loadout-category-JobsEpistemicsAcolyte = Acolyte
 loadout-category-JobsEpistemicsCataloger = Cataloger
 loadout-category-JobsEpistemicsChaplain = Chaplain
-loadout-category-JobsEpistemicsGolemancer = Golemancer
+# Floof - renamed back
+loadout-category-JobsEpistemicsGolemancer = Roboticist
 loadout-category-JobsEpistemicsMystagogue = Mystagogue
 loadout-category-JobsEpistemicsMystic = Mystic
 loadout-category-JobsEpistemicsNoviciate = Noviciate
@@ -66,6 +68,7 @@ loadout-category-JobsMedicalSeniorPhysician = Senior Physician
 # Security
 loadout-category-JobsSecurity = Security
 loadout-category-JobsSecurityAUncategorized = All Security
+loadout-category-JobsSecurityWeapons = Service Weapons 
 loadout-category-JobsSecurityCadet = Cadet
 loadout-category-JobsSecurityCorpsman = Corpsman
 loadout-category-JobsSecurityDetective = Detective

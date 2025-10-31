@@ -103,11 +103,11 @@
           stealth: Subtle
           stripTimeReduction: 0
           stripTimeMultiplier: 0.667
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Felinid
+#  requirements: | Floof - M3739 - #1194
+#    - !type:CharacterSpeciesRequirement
+#      inverted: true
+#      species:
+#        - Felinid
 
 - type: trait
   id: Voracious
@@ -167,6 +167,7 @@
       inverted: true
       species:
         - Felinid
+        - Tajaran
 
 - type: trait
   id: Singer
@@ -301,7 +302,8 @@
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
-        - Felinid
+#        - Felinid | Floof - M3739 - #1194
+        - Tajaran # Floof - Tajaran
         - Harpy
         - Rodentia # Floof - Rodentia
 

@@ -1,3 +1,5 @@
+using Content.Server._Floof.Preferences;
+using Content.Server._Floof.Traits;
 using Content.Server.Body.Components;
 using Content.Server.Body.Systems;
 using Content.Server.Chemistry.Containers.EntitySystems;
@@ -23,6 +25,7 @@ using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Mobs.Systems;
+using Content.Shared.Mood;
 using Content.Shared.Nutrition;
 using Content.Shared.Nutrition.Components;
 using Content.Shared.Nutrition.EntitySystems;
@@ -32,6 +35,7 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 
 namespace Content.Server.Nutrition.EntitySystems;
@@ -56,6 +60,7 @@ public sealed class DrinkSystem : SharedDrinkSystem
     [Dependency] private readonly StomachSystem _stomach = default!;
     [Dependency] private readonly ForensicsSystem _forensics = default!;
     [Dependency] private readonly IConfigurationManager _config = default!;
+    [Dependency] private readonly FavoriteDrinkSystem _favoriteDrink = default!; // Floof
 
     public override void Initialize()
     {
@@ -218,6 +223,9 @@ public sealed class DrinkSystem : SharedDrinkSystem
             BreakOnDamage = true,
             MovementThreshold = 0.01f,
             DistanceThreshold = 1.0f,
+            // Floof: stop people from drinking nine puddles of blood at once
+            BlockDuplicate = true,
+            DuplicateCondition = DuplicateConditions.SameEvent,
             // Mice and the like can eat without hands.
             // TODO maybe set this based on some CanEatWithoutHands event or component?
             NeedHand = forceDrink,
@@ -322,7 +330,10 @@ public sealed class DrinkSystem : SharedDrinkSystem
 
         _audio.PlayPvs(entity.Comp.UseSound, args.Target.Value, AudioParams.Default.WithVolume(-2f));
 
-        _reaction.DoEntityReaction(args.Target.Value, solution, ReactionMethod.Ingestion);
+        // Floof: favorite drinks
+        _favoriteDrink.MaybeFavoriteDrinkReaction(args.Target.Value, drained);
+
+        _reaction.DoEntityReaction(args.Target.Value, drained, ReactionMethod.Ingestion);
         //TODO: Grab the stomach UIDs somehow without using Owner
         _stomach.TryTransferSolution(firstStomach.Value.Comp.Owner, drained, firstStomach.Value.Comp);
 

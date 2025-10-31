@@ -552,7 +552,7 @@ public sealed class ChatUIController : UIController
             if (_ghost is not {IsGhost: true})
             {
                 FilterableChannels |= ChatChannel.Subtle;
-                FilterableChannels |= ChatChannel.SubtleOOC;
+                /*FilterableChannels |= ChatChannel.SubtleOOC;*/ // Floof - Deprecated
                 CanSendChannels |= ChatSelectChannel.Local;
                 CanSendChannels |= ChatSelectChannel.Whisper;
                 CanSendChannels |= ChatSelectChannel.Radio;
@@ -567,14 +567,17 @@ public sealed class ChatUIController : UIController
         {
             FilterableChannels |= ChatChannel.Dead;
             CanSendChannels |= ChatSelectChannel.Dead;
+            FilterableChannels |= ChatChannel.Subtle; // Floof - M3739 - So it can be filtered out proper.
         }
-
+        // Floof Start
+        /* 
         if (_admin.HasFlag(AdminFlags.Pii) && _ghost is { IsGhost: true })
         {
             FilterableChannels |= ChatChannel.Subtle;
             FilterableChannels |= ChatChannel.SubtleOOC;
-        }
-
+        }*/
+        // Floof End
+        
         // only admins can see / filter asay
         if (_admin.HasFlag(AdminFlags.Adminchat))
         {
@@ -735,6 +738,10 @@ public sealed class ChatUIController : UIController
             box.ChatInput.ChannelSelector.UpdateChannelSelectButton(box.SelectedChannel, null);
         else
             box.ChatInput.ChannelSelector.UpdateChannelSelectButton(prefixChannel, radioChannel);
+
+        // Floof: stop showing typing indicator immediately if we switch to an anonymous channel
+        if ((box.SelectedChannel & ChatSelectChannel.Anonymous) != ChatSelectChannel.None)
+            _typingIndicator?.ClientSubmittedChatText();
     }
 
     public (ChatSelectChannel chatChannel, string text, RadioChannelPrototype? radioChannel) SplitInputContents(string text)
@@ -928,10 +935,12 @@ public sealed class ChatUIController : UIController
                 AddSpeechBubble(msg, SpeechBubble.SpeechType.Say);
                 break;
 
+            case ChatChannel.Subtle: // Floofstation
             case ChatChannel.Emotes:
                 AddSpeechBubble(msg, SpeechBubble.SpeechType.Emote);
                 break;
 
+            case ChatChannel.SubtleOOC: // Floofstation
             case ChatChannel.LOOC:
                 if (_config.GetCVar(CCVars.LoocAboveHeadShow))
                     AddSpeechBubble(msg, SpeechBubble.SpeechType.Looc);
@@ -964,9 +973,11 @@ public sealed class ChatUIController : UIController
         return MapLocalIfGhost(PreferredChannel);
     }
 
-    public void NotifyChatTextChange()
+    public void NotifyChatTextChange(ChatSelectChannel channel)
     {
-        _typingIndicator?.ClientChangedChatText();
+        // Floof: only show typing indicator if we're not typing in an anonymous channel
+        if ((channel & ChatSelectChannel.Anonymous) == ChatSelectChannel.None)
+            _typingIndicator?.ClientChangedChatText();
     }
 
     public void Repopulate()

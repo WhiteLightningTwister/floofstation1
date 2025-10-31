@@ -35,6 +35,7 @@
   - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
   #- Prisoner # Floof - Create dedicated service department
   #- Gladiator # Floof - Create dedicated service department
+  - ServiceQuadBorg # Floof
 
 - type: department
   id: Command
@@ -60,10 +61,19 @@
   - ERTEngineer
   - DeathSquad
   - AdministrativeAssistant # Delta V - Administrative Assistant, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Command/admin_assistant.yml
-  - BlueshieldOfficer # Goobstation
-  - NanotrasenRepresentative # Goobstation
   primary: false
   weight: 100
+
+- type: department
+  id: Dignitary
+  description: department-Dignitary-description
+  color: "#33FE6D"
+  roles:
+  - BlueshieldOfficer # Goobstation
+  - NanotrasenRepresentative # Goobstation
+  - Magistrate # Goobstation
+  primary: false
+  weight: 101
 
 - type: department
   id: Engineering
@@ -89,6 +99,7 @@
   - Paramedic
   - SeniorPhysician
   - MedicalBorg  # Delta V - Medical Borg, see Resources/Prototypes/DeltaV/Roles/Jobs/Medical/medicalborg.yml
+  - MedicalQuadBorg # Floof
 
 - type: department
   id: Security
