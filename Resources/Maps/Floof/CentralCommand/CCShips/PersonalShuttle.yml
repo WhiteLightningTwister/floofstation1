@@ -520,6 +520,14 @@ entities:
     - type: Transform
       pos: 1.5,-4.5
       parent: 1
+- proto: GasPassiveVent
+  entities:
+  - uid: 153
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -3.5,-1.5
+      parent: 1
 - proto: GasPipeBend
   entities:
   - uid: 81
@@ -528,8 +536,52 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 0.5,0.5
       parent: 1
+- proto: GasPipeStraight
+  entities:
+  - uid: 17
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,-0.5
+      parent: 1
+  - uid: 18
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,0.5
+      parent: 1
+  - uid: 149
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 0.5,-1.5
+      parent: 1
+  - uid: 150
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -0.5,-1.5
+      parent: 1
+  - uid: 151
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-1.5
+      parent: 1
+  - uid: 152
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -2.5,-1.5
+      parent: 1
 - proto: GasPipeTJunction
   entities:
+  - uid: 16
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,-1.5
+      parent: 1
   - uid: 85
     components:
     - type: Transform
@@ -555,6 +607,19 @@ entities:
     components:
     - type: Transform
       pos: 0.5,1.5
+      parent: 1
+- proto: GasVentScrubber
+  entities:
+  - uid: 14
+    components:
+    - type: Transform
+      pos: 1.5,1.5
+      parent: 1
+  - uid: 15
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,-1.5
       parent: 1
 - proto: GeneratorRTG
   entities:
