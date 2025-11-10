@@ -8335,3 +8335,10 @@ Entries:
   id: 887
   time: '2025-11-10T18:09:13.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1520
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: Nerfed some of the new artifact effects.
+  id: 888
+  time: '2025-11-10T18:10:28.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1525
