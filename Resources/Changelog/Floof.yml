@@ -8342,3 +8342,10 @@ Entries:
   id: 888
   time: '2025-11-10T18:10:28.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1525
+- author: jack-thedragon95
+  changes:
+    - type: Fix
+      message: vox displacement maps now appear in game
+  id: 889
+  time: '2025-11-10T18:18:12.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1501
