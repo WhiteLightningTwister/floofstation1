@@ -8320,3 +8320,18 @@ Entries:
   id: 886
   time: '2025-10-29T11:36:54.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1382
+- author: ashkitten
+  changes:
+    - type: Fix
+      message: >-
+        Shaders will no longer fail to compile and crash the game on certain
+        system configurations.
+    - type: Fix
+      message: Hunger is now properly copied to Kitsune polymorph.
+    - type: Fix
+      message: >-
+        Doors are no longer blocked by intangible hitboxes like the portable
+        flasher.
+  id: 887
+  time: '2025-11-10T18:09:13.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1520
