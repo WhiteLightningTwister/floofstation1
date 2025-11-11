@@ -8356,3 +8356,12 @@ Entries:
   id: 890
   time: '2025-11-11T17:41:37.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1504
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Submarine now has a full Justice department, better dorms & holopads.
+        See discord for the rest.
+  id: 891
+  time: '2025-11-11T23:24:42.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1485
