@@ -8402,3 +8402,10 @@ Entries:
   id: 896
   time: '2025-11-12T14:34:00.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1513
+- author: Raikyr0
+  changes:
+    - type: Fix
+      message: Fixed a bunch of coats to properly be resistant to the cold
+  id: 897
+  time: '2025-11-12T14:36:36.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1502
