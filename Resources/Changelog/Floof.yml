@@ -8473,3 +8473,10 @@ Entries:
   id: 905
   time: '2025-11-12T17:34:16.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1508
+- author: Jazun
+  changes:
+    - type: Add
+      message: Added a sound for blinking
+  id: 906
+  time: '2025-11-12T17:53:17.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1528
