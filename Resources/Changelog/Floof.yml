@@ -8388,3 +8388,10 @@ Entries:
   id: 894
   time: '2025-11-12T14:32:41.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1511
+- author: ashkitten
+  changes:
+    - type: Add
+      message: Pens are clicky now.
+  id: 895
+  time: '2025-11-12T14:33:18.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1512
