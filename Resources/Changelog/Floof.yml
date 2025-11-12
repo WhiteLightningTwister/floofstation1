@@ -8423,3 +8423,10 @@ Entries:
   id: 899
   time: '2025-11-12T14:38:51.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1497
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: You can now properly deconstruct bar counters.
+  id: 900
+  time: '2025-11-12T14:35:04.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1509
