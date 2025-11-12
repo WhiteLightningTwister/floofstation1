@@ -8455,3 +8455,10 @@ Entries:
   id: 903
   time: '2025-11-12T15:12:29.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1461
+- author: sprkl
+  changes:
+    - type: Add
+      message: More languages are now available to learn
+  id: 904
+  time: '2025-11-12T15:17:25.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1464
