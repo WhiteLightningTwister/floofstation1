@@ -8395,3 +8395,10 @@ Entries:
   id: 895
   time: '2025-11-12T14:33:18.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1512
+- author: Dogbone10
+  changes:
+    - type: Tweak
+      message: Moths can now eat pills
+  id: 896
+  time: '2025-11-12T14:34:00.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1513
