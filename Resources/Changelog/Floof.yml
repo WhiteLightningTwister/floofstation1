@@ -8462,3 +8462,14 @@ Entries:
   id: 904
   time: '2025-11-12T15:17:25.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1464
+- author: JFerrix
+  changes:
+    - type: Add
+      message: Added displacement map for arachne
+    - type: Tweak
+      message: Updated arachne prototype to work with the new map
+    - type: Fix
+      message: Fixed horrible arachne texture hirarchy and naming convention
+  id: 905
+  time: '2025-11-12T17:34:16.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1508
