@@ -8365,3 +8365,10 @@ Entries:
   id: 891
   time: '2025-11-11T23:24:42.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1485
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Tweaked more knives and swords to do more surgery things.
+  id: 892
+  time: '2025-11-12T14:31:12.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1522
