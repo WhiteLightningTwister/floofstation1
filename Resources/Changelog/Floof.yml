@@ -8446,3 +8446,12 @@ Entries:
   id: 902
   time: '2025-11-12T14:35:49.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1510
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: >-
+        You ever want to shoot like an Oni? Yeah, me neither but I turned it
+        into a trait you can take.
+  id: 903
+  time: '2025-11-12T15:12:29.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1461
