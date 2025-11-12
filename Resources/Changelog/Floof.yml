@@ -8381,3 +8381,10 @@ Entries:
   id: 893
   time: '2025-11-12T14:31:58.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1517
+- author: Raikyr0
+  changes:
+    - type: Remove
+      message: Removed extra winter boots from the medidrobe contraband list.
+  id: 894
+  time: '2025-11-12T14:32:41.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1511
