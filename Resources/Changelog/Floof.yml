@@ -8372,3 +8372,12 @@ Entries:
   id: 892
   time: '2025-11-12T14:31:12.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1522
+- author: Gaybritishcow
+  changes:
+    - type: Add
+      message: Added Ghee to Chefvend
+    - type: Add
+      message: Added Hotcross Bun & Meat Bun recipes.
+  id: 893
+  time: '2025-11-12T14:31:58.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1517
