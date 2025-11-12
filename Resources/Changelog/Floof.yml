@@ -8416,3 +8416,10 @@ Entries:
   id: 898
   time: '2025-11-12T14:37:56.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1491
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: Fixed lotophagoi oil localization.
+  id: 899
+  time: '2025-11-12T14:38:51.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1497
