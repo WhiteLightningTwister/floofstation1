@@ -8430,3 +8430,10 @@ Entries:
   id: 900
   time: '2025-11-12T14:35:04.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1509
+- author: jack-thedragon95
+  changes:
+    - type: Add
+      message: ADDS VOX MASKS! GLORY TO THE SHOAL!
+  id: 901
+  time: '2025-11-12T14:47:21.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1474
