@@ -8480,3 +8480,10 @@ Entries:
   id: 906
   time: '2025-11-12T17:53:17.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1528
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: 'Re-add vapes to the shady cigs vendor. '
+  id: 907
+  time: '2025-11-14T11:51:58.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1530
