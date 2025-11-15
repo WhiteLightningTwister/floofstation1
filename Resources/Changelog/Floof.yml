@@ -8487,3 +8487,10 @@ Entries:
   id: 907
   time: '2025-11-14T11:51:58.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1530
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added 15 new plushies of various goobers that call this sector home
+  id: 908
+  time: '2025-11-15T17:58:59.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1500
