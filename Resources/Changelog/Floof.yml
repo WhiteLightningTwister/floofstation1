@@ -8501,3 +8501,12 @@ Entries:
   id: 909
   time: '2025-11-15T18:00:15.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1498
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: A magician never reveals their secrets.
+    - type: Tweak
+      message: Magician's tophat has a little more space, fits atleast 1 Andy Stall.
+  id: 910
+  time: '2025-11-15T18:03:26.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1493
