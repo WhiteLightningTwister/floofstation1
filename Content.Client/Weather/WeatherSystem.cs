@@ -90,7 +90,7 @@ public sealed class WeatherSystem : SharedWeatherSystem
                         {
                             if (Math.Abs(x) == 1 && Math.Abs(y) == 1 ||
                                 x == 0 && y == 0 ||
-                                (new Vector2(x, y) + node.GridIndices - seed.GridIndices).Length() > 3)
+                                (new Vector2(x, y) + node.GridIndices - seed.GridIndices).Length() > 5) // Floofstation - increase max search radius to 5
                             {
                                 continue;
                             }
@@ -118,7 +118,7 @@ public sealed class WeatherSystem : SharedWeatherSystem
             }
             else
             {
-                occlusion = 3f;
+                occlusion = 6f; // Floofstation - increase default occlusion so snowfall noise is less annoying indoors
             }
         }
 
