@@ -8531,3 +8531,19 @@ Entries:
   id: 912
   time: '2025-11-15T18:07:49.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1478
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Loadouts and traits UI has been remade from scratch, fixing an
+        uncountable amount of bugs. This also means that the game will no longer
+        freeze for 5-20 seconds during startup.
+    - type: Fix
+      message: >-
+        If you have multiple conflicting loadouts (e.g. multiple survival boxes
+        for different jobs), only one of them will spawn in (the one that passes
+        the requirements). This means that you no longer have to create separate
+        characters just to have survival boxes on all jobs, etc.
+  id: 913
+  time: '2025-11-15T18:16:46.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1518
