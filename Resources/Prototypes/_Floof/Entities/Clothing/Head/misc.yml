@@ -118,7 +118,7 @@
   suffix: syndicate
   components:
   - type: Item
-    size: Huge
+    size: Ginormous # Must be bigger than the items it can fit inside, to prevent players from creating a fucking singularity with these.
   - type: Storage
     maxItemSize: Huge
     grid:
