@@ -143,6 +143,6 @@
   icon: { sprite: Clothing/Head/Hats/magician.rsi, state: icon }
   productEntity: ClothingHeadHatMagicianSyndie
   cost:
-    Telecrystal: 2
+    Telecrystal: 4 # Pretty OP storage
   categories:
   - UplinkDeception
