@@ -8517,3 +8517,17 @@ Entries:
   id: 911
   time: '2025-11-15T18:05:17.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1470
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Ported the weather cycle system from Vulpstation. Glacier, Asterisk, and
+        Train will now have a varying weather cycle: sometimes it will be warm,
+        sometimes cold, sometimes it will rain, and more.
+    - type: Fix
+      message: >-
+        Weather occlusion is now correctly calculated: standing outdoors will
+        make weather sounds louder, standing indoors will make them quieter.
+  id: 912
+  time: '2025-11-15T18:07:49.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1478
