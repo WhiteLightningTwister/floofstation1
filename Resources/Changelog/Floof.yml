@@ -8494,3 +8494,10 @@ Entries:
   id: 908
   time: '2025-11-15T17:58:59.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1500
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: IPC are a little more resistant to being air fried.
+  id: 909
+  time: '2025-11-15T18:00:15.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1498
