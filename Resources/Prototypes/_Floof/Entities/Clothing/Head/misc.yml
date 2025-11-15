@@ -117,6 +117,8 @@
   description: "A magician's tophat."
   suffix: syndicate
   components:
+  - type: Item
+    size: Huge
   - type: Storage
     maxItemSize: Huge
     grid:
