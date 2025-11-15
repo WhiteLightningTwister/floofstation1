@@ -8547,3 +8547,12 @@ Entries:
   id: 913
   time: '2025-11-15T18:16:46.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1518
+- author: Arbitrated
+  changes:
+    - type: Tweak
+      message: >-
+        Radstation has been updated. The changes include the addition of a fully
+        functional mailing and disposal systems. See PR#1521 for more info.
+  id: 914
+  time: '2025-11-15T19:59:23.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1521
