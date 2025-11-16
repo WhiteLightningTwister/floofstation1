@@ -8567,3 +8567,14 @@ Entries:
   id: 915
   time: '2025-11-16T00:00:43.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1443
+- author: WhiteLightningTwister
+  changes:
+    - type: Add
+      message: quadborg spawn points, to certain maps.
+    - type: Tweak
+      message: Made adjustments to saltern & shoukou.
+    - type: Remove
+      message: Removed surplus crates from LPO.
+  id: 916
+  time: '2025-11-16T19:49:04.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1539
