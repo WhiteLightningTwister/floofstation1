@@ -8585,3 +8585,14 @@ Entries:
   id: 917
   time: '2025-11-16T20:19:09.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1514
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        The trait selections counter no longer shows the same max value as the
+        trait points counter, the loadouts ui now correctly fetches your
+        playtimes when checking if a loadout is usable, and the server now
+        correctly keeps track of trait slots.
+  id: 918
+  time: '2025-11-16T23:47:18.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1542
