@@ -84,7 +84,7 @@ public sealed class TraitSystem : EntitySystem
                 continue;
 
             pointsTotal += traitPrototype.Points;
-            --traitSelections;
+            traitSelections -= traitPrototype.Slots;
 
             AddTrait(args.Mob, traitPrototype);
         }
