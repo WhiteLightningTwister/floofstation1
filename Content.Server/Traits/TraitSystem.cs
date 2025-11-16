@@ -80,7 +80,7 @@ public sealed class TraitSystem : EntitySystem
                 continue;
 
             // Floof - early exit if we are over the trait limit or points limit
-            if (pointsTotal + traitPrototype.Points < 0 || traitSelections <= 0)
+            if (pointsTotal + traitPrototype.Points < 0 || traitSelections - traitPrototype.Slots < 0)
                 continue;
 
             pointsTotal += traitPrototype.Points;
