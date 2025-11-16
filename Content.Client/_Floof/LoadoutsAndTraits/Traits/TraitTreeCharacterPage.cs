@@ -31,6 +31,7 @@ public sealed class TraitTreeCharacterPage : AbstractLoadoutTreeCharacterPage<Tr
         // 0. fucking. consistency.
         Counters.Add(new("loadout-point-counter", proto => -proto.Points, () => MaxPoints));
         Counters.Add(new("loadout-selection-counter", proto => proto.Slots, () => MaxSelections));
+        UpdateCounters();
     }
 
     ~TraitTreeCharacterPage()
