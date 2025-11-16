@@ -8578,3 +8578,10 @@ Entries:
   id: 916
   time: '2025-11-16T19:49:04.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1539
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Added Getaway the Floof Sectors first leisure station for play testing.
+  id: 917
+  time: '2025-11-16T20:19:09.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1514
