@@ -8556,3 +8556,14 @@ Entries:
   id: 914
   time: '2025-11-15T19:59:23.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1521
+- author: WhiteLightningTwister
+  changes:
+    - type: Add
+      message: Added a bunch of new grids that admins can use.
+    - type: Tweak
+      message: Central Command 2.0
+    - type: Remove
+      message: outdated ships.
+  id: 915
+  time: '2025-11-16T00:00:43.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1443
