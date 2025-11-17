@@ -20,6 +20,7 @@
     - type: Loadout
       prototypes:
         - FriendlyPlayerMob
+    - type: Vore
 
 - type: entity
   name: laser raptor
@@ -67,7 +68,7 @@
       baseWalkSpeed: 2.5
       baseSprintSpeed: 6
     - type: BodyEmotes
-      soundsID: ReptilianBodyEmotes
+      soundsId: ReptilianBodyEmotes
     - type: Tag
       tags:
         - CanPilot
@@ -147,7 +148,7 @@
     - Dragon
     - NanoTrasen
   - type: ReplacementAccent
-    accent: generic
+    accent: ReplacementAccent
     replacementChance: 1
   - type: NightVision
     isActive: false
@@ -195,7 +196,7 @@
     - Dragon
     - NanoTrasen
   - type: ReplacementAccent
-    accent: generic
+    accent: ReplacementAccent
     replacementChance: 1
   - type: NightVision
     isActive: false
