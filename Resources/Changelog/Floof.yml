@@ -8596,3 +8596,12 @@ Entries:
   id: 918
   time: '2025-11-16T23:47:18.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1542
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: >-
+        N14 tiles will no longer show wasteland when pried up and will no longer
+        have weather effects on them.
+  id: 919
+  time: '2025-11-17T20:22:18.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1548
