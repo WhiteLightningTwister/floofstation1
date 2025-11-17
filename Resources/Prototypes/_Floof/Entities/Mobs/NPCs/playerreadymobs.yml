@@ -40,8 +40,6 @@
         types:
           Slash: 7.5
       range: 1.75
-      rootTask:
-        task: SimpleRangedHostileCompound
     - type: Puller
       needsHands: false
     - type: Sprite
@@ -147,9 +145,6 @@
     factions:
     - Dragon
     - NanoTrasen
-  - type: ReplacementAccent
-    accent: ReplacementAccent
-    replacementChance: 1
   - type: NightVision
     isActive: false
     toggleAction: ToggleNightVision
@@ -195,9 +190,6 @@
     factions:
     - Dragon
     - NanoTrasen
-  - type: ReplacementAccent
-    accent: ReplacementAccent
-    replacementChance: 1
   - type: NightVision
     isActive: false
     toggleAction: ToggleNightVision
