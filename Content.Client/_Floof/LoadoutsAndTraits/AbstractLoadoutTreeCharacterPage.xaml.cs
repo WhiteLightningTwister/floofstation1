@@ -469,7 +469,9 @@ public abstract partial class AbstractLoadoutTreeCharacterPage<TProto, TCategory
         _characterRequirements ??= IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<CharacterRequirementsSystem>();
         _fallbackJob ??= ProtoMan.Index(_fallbackJobId);
 
-        var playtimes = _jobRequirementsManager.GetPlayTimes();
+        // !!! landmine: make sure to use GetRawPlayTime trackers, as this is what the loadout system was made to rely on.
+        // GetPlayTimes would return a Dictionary<ProtoId<Job>, TimeSpan>, whereas this returns a Dictionary<ProtoId<PlayTimeTracker>, TimeSpan>, but neither of them are typed properly
+        var playtimes = _jobRequirementsManager.GetRawPlayTimeTrackers();
         // EE used to create a new empty JobPrototype here, which would cause certain checks to fail. I have no words.
         profile ??= HumanoidCharacterProfile.DefaultWithSpecies();
         highJob ??= _fallbackJob;

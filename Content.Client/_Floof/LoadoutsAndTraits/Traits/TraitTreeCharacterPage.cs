@@ -30,7 +30,8 @@ public sealed class TraitTreeCharacterPage : AbstractLoadoutTreeCharacterPage<Tr
         // This weird system expresses loadout cost as "how many points this takes", but trait cost as "how many points this GIVES"
         // 0. fucking. consistency.
         Counters.Add(new("loadout-point-counter", proto => -proto.Points, () => MaxPoints));
-        Counters.Add(new("loadout-selection-counter", proto => proto.Slots, () => MaxPoints));
+        Counters.Add(new("loadout-selection-counter", proto => proto.Slots, () => MaxSelections));
+        UpdateCounters();
     }
 
     ~TraitTreeCharacterPage()
