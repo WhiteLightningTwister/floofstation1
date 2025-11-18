@@ -109,7 +109,7 @@ public sealed class TraitSystem : EntitySystem
         {
             Log.Warning($"Player {args.Player.Name} tried to spawn with a negative balance: {discardedTraits.Count} discarded, {pointsTotal} points, {traitSelections} selections.");
 
-            var msg = $"Warning: {discardedTraits.Count} of your traits failed to apply due to insufficient trait balance: " +
+            var msg = $"Warning: {discardedTraits.Count} of your traits failed to apply due to insufficient trait balance or missing requirements: " +
                 $"{string.Join(", ", discardedTraits.Select(t => t.ID))}.";
             _chatManager.ChatMessageToOne(
                 ChatChannel.Server,
