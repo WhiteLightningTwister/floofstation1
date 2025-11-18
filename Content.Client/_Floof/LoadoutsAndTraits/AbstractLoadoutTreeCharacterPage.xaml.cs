@@ -466,7 +466,13 @@ public abstract partial class AbstractLoadoutTreeCharacterPage<TProto, TCategory
         List<CharacterRequirement> requirements,
         out List<string> failReasons)
     {
-        _characterRequirements ??= IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<CharacterRequirementsSystem>();
+        _characterRequirements ??= IoCManager.Resolve<IEntitySystemManager>().GetEntitySystemOrNull<CharacterRequirementsSystem>();
+        if (_characterRequirements == null)
+        {
+            // IOC my behatred. Ideally this method shouldn't be called mid-connection, but sometimes it can, in which case the system will fail to resolve.
+            failReasons = new();
+            return true;
+        }
         _fallbackJob ??= ProtoMan.Index(_fallbackJobId);
 
         // !!! landmine: make sure to use GetRawPlayTime trackers, as this is what the loadout system was made to rely on.

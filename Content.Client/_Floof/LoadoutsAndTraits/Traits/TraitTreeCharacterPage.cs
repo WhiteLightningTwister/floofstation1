@@ -36,8 +36,8 @@ public sealed class TraitTreeCharacterPage : AbstractLoadoutTreeCharacterPage<Tr
 
     ~TraitTreeCharacterPage()
     {
-        Cfg.UnsubValueChanged(CCVars.GameTraitsDefaultPoints, it => MaxPoints = it);
-        Cfg.UnsubValueChanged(CCVars.GameTraitsMax, it => MaxSelections = it);
+        Cfg.UnsubValueChanged(CCVars.GameTraitsDefaultPoints, OnMaxPointsChanged);
+        Cfg.UnsubValueChanged(CCVars.GameTraitsMax, OnMaxSelectionsChanged);
     }
 
     private void OnMaxPointsChanged(int value)
