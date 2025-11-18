@@ -57,6 +57,7 @@ public sealed class TraitSystem : EntitySystem
 
         // Step 1. Figure out which traits will actually apply.
         var sortedTraits = new List<TraitPrototype>();
+        var discardedTraits = new List<TraitPrototype>();
         foreach (var traitId in args.Profile.TraitPreferences)
         {
             if (!_prototype.TryIndex<TraitPrototype>(traitId, out var traitPrototype))
@@ -71,7 +72,10 @@ public sealed class TraitSystem : EntitySystem
                 args.Profile, _playTimeTracking.GetTrackerTimes(args.Player), args.Player.ContentData()?.Whitelisted ?? false, traitPrototype,
                 EntityManager, _prototype, _configuration,
                 out _))
+            {
+                discardedTraits.Add(traitPrototype);
                 continue;
+            }
 
             sortedTraits.Add(traitPrototype);
         }
@@ -79,7 +83,6 @@ public sealed class TraitSystem : EntitySystem
         // Step 2. sort by points added so that we never go into negative balance unless the player already has a negative total.
         // Eliminate any trait that would cause us to go into negative balance.
         sortedTraits.Sort((a, b) => a.Points.CompareTo(b.Points));
-        var discardedTraits = new List<TraitPrototype>();
         for (int i = sortedTraits.Count - 1; i >= 0; i--)
         {
             var traitPrototype = sortedTraits[i];
