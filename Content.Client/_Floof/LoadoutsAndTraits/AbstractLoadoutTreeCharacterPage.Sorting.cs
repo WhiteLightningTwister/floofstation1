@@ -21,7 +21,14 @@ public abstract partial class AbstractLoadoutTreeCharacterPage<TProto, TCategory
         SortByCounter = Math.Clamp(SortByCounter, 0, Counters.Count);
 
         var counter = Counters[SortByCounter - 1];
-        return (a, b) => counter.GetPrototypeCost(a) - counter.GetPrototypeCost(b);
+        return (a, b) =>
+        {
+            // Sort by the counter first, fall back to sorting by name if counters are equal.
+            var result = counter.GetPrototypeCost(a) - counter.GetPrototypeCost(b);
+            return result != 0
+                ? result
+                : string.Compare(GetLocalizedName(a), GetLocalizedName(b), StringComparison.OrdinalIgnoreCase);
+        };
     }
 
     /// <summary>

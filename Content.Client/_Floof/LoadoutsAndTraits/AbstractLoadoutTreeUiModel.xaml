@@ -31,7 +31,8 @@
             Text="You shouldn't see this"
             ToolTip="{Loc 'humanoid-profile-editor-loadouts-remove-unusable-button-tooltip'}"
             HorizontalAlignment="Stretch"
-            HorizontalExpand="True"/>
+            HorizontalExpand="True"
+            StyleClasses="OpenBoth" />
         <Button
             Name="SortModeToggleButton" Access="Public"
             Text="Peekabu"
