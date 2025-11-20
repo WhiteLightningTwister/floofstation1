@@ -79,6 +79,11 @@
       interactFailureString: petting-failure-generic
       interactSuccessSound:
         path: /Audio/Animals/lizard_happy.ogg
+    - type: Vocal
+      sounds:
+        Male: MaleReptilian
+        Female: FemaleReptilian
+        Unsexed: MaleReptilian
 
 - type: entity
   name: space dragon
@@ -126,6 +131,11 @@
     - TauCetiBasic
     - Kobold
     - Sign
+  - type: Vocal
+    sounds:
+      Male: MaleReptilian
+      Female: FemaleReptilian
+      Unsexed: MaleReptilian
 
 - type: entity
   name: space carp
@@ -171,6 +181,11 @@
     understands:
     - TauCetiBasic
     - Kobold
+  - type: Vocal
+    sounds:
+      Male: MaleReptilian
+      Female: FemaleReptilian
+      Unsexed: MaleReptilian
 
 - type: entity
   name: sharkminnow
@@ -216,3 +231,8 @@
     understands:
     - TauCetiBasic
     - Kobold
+  - type: Vocal
+    sounds:
+      Male: MaleReptilian
+      Female: FemaleReptilian
+      Unsexed: MaleReptilian
