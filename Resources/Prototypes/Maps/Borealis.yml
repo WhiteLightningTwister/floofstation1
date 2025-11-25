@@ -15,10 +15,6 @@
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: 'NY'
-      # uncomment when planets arent fucked sideways
-      #- type: StationSurface
-      #  mapPath: /Maps/Nonstations/nukieplanet.yml
-      #  biome: Snow
       - type: StationJobs
         overflowJobs:
           - Passenger
