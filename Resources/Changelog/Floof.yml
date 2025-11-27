@@ -8614,3 +8614,13 @@ Entries:
   id: 920
   time: '2025-11-24T06:06:10.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1562
+- author: HR Department
+  changes:
+    - type: Add
+      message: >-
+        HR was contacted over this issue, we've added a whole ass filled
+        Nitrogen Tank for Vox to take in the loadout. This was just hindsight,
+        the Vox will not be suing us over this.
+  id: 921
+  time: '2025-11-27T17:06:17.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1566
