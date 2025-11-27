@@ -8605,3 +8605,12 @@ Entries:
   id: 919
   time: '2025-11-17T20:22:18.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1548
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        Epistemics can now research the cloning pod as a tier 3 experimental
+        technology, with a relatively low softcap multiplier.
+  id: 920
+  time: '2025-11-24T06:06:10.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1562
