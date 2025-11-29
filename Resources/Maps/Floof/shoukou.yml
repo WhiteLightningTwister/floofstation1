@@ -3915,11 +3915,12 @@ entities:
             2: 32767
           -9,2:
             2: 17484
-            0: 4369
+            0: 4113
           -8,3:
             2: 10231
           -9,3:
-            2: 26340
+            2: 26564
+            0: 1
           -8,4:
             2: 63279
           -7,0:
@@ -4139,7 +4140,7 @@ entities:
           -10,2:
             0: 65535
           -10,3:
-            2: 8752
+            2: 8816
           -10,-1:
             0: 65399
           -10,4:
@@ -4311,13 +4312,13 @@ entities:
             0: 65535
           -10,-10:
             0: 63232
-            3: 14
+            6: 14
           -10,-12:
+            3: 14
+            4: 3584
+          -10,-11:
             4: 14
             5: 3584
-          -10,-11:
-            5: 14
-            6: 3584
           -9,-13:
             0: 52428
           0,-13:
@@ -4391,7 +4392,7 @@ entities:
           -10,-17:
             0: 56773
           -10,-13:
-            5: 3598
+            4: 3598
           -9,-16:
             0: 56797
           -9,-15:
@@ -4652,8 +4653,7 @@ entities:
           5,-6:
             0: 57599
           5,-5:
-            0: 60670
-            7: 512
+            0: 61182
           6,-7:
             0: 61661
           6,-6:
@@ -4820,7 +4820,7 @@ entities:
           12,-6:
             0: 4095
           12,-5:
-            0: 53503
+            0: 53279
           8,0:
             0: 26214
           9,-3:
@@ -4890,8 +4890,7 @@ entities:
           12,1:
             0: 65399
           12,2:
-            0: 14335
-            7: 16384
+            0: 30719
           12,3:
             2: 63920
           8,-13:
@@ -4993,13 +4992,13 @@ entities:
           13,-3:
             0: 45567
           13,-2:
-            0: 61627
-          13,-1:
-            0: 16383
+            0: 57531
           13,-5:
-            0: 61695
+            0: 61455
+          13,-1:
+            0: 12014
           13,0:
-            0: 49083
+            0: 49066
           14,-4:
             0: 63246
           14,-3:
@@ -5570,8 +5569,7 @@ entities:
           -14,8:
             0: 65535
           -13,8:
-            0: 46003
-            7: 8
+            0: 46011
           -20,-8:
             2: 61440
           -21,-8:
@@ -5628,7 +5626,7 @@ entities:
           -19,-12:
             2: 27716
           -19,-11:
-            2: 17518
+            2: 19566
           -19,-13:
             2: 17476
           -18,-12:
@@ -6200,21 +6198,6 @@ entities:
           temperature: 293.15
           moles:
           - 0
-          - 6666.982
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 0
           - 0
           - 0
           - 6666.982
@@ -6257,10 +6240,10 @@ entities:
           - 0
           - 0
         - volume: 2500
-          temperature: 293.14975
+          temperature: 293.15
           moles:
-          - 21.991163
-          - 73.62259
+          - 0
+          - 6666.982
           - 0
           - 0
           - 0
@@ -8514,7 +8497,7 @@ entities:
       pos: 34.5,-5.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -41689.57
+      secondsUntilStateChange: -41712.355
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8554,7 +8537,7 @@ entities:
       pos: -36.5,-36.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -72459.5
+      secondsUntilStateChange: -72482.29
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8932,7 +8915,7 @@ entities:
       pos: -32.5,-41.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -71888.32
+      secondsUntilStateChange: -71911.11
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9128,7 +9111,7 @@ entities:
       pos: -20.5,-13.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -98145.96
+      secondsUntilStateChange: -98168.75
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9549,7 +9532,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -125995.875
+      secondsUntilStateChange: -126018.664
       state: Opening
   - uid: 7972
     components:
@@ -9744,7 +9727,7 @@ entities:
       pos: 13.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -77351.73
+      secondsUntilStateChange: -77374.516
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9848,7 +9831,7 @@ entities:
       pos: -4.5,-3.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -82207.16
+      secondsUntilStateChange: -82229.945
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -10332,7 +10315,7 @@ entities:
       pos: 19.5,10.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -937.46783
+      secondsUntilStateChange: -960.2534
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11033,7 +11016,7 @@ entities:
       pos: 81.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -120464.33
+      secondsUntilStateChange: -120487.12
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11204,7 +11187,7 @@ entities:
       pos: 6.5,19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -86556.414
+      secondsUntilStateChange: -86579.2
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11436,7 +11419,7 @@ entities:
       pos: 10.5,18.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -86379.95
+      secondsUntilStateChange: -86402.74
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -71059,7 +71042,7 @@ entities:
       pos: 9.5,27.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -133399.1
+      secondsUntilStateChange: -133421.88
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -71329,7 +71312,7 @@ entities:
       pos: -36.5,-22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -347777.1
+      secondsUntilStateChange: -347799.88
       state: Closing
   - uid: 5912
     components:
@@ -71963,7 +71946,7 @@ entities:
       pos: -40.5,-0.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -278006
+      secondsUntilStateChange: -278028.78
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -121890,7 +121873,7 @@ entities:
       pos: -48.5,-18.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2220.0332
+      secondsUntilStateChange: -2242.8188
       state: Opening
   - uid: 10197
     components:
@@ -124819,16 +124802,13 @@ entities:
     - type: Transform
       pos: -18.67057,-16.331293
       parent: 2
-- proto: MaterialDiamond
+- proto: MaterialDiamond1
   entities:
   - uid: 9590
     components:
     - type: Transform
-      pos: 37.55034,-35.43134
+      pos: 37.555088,-35.44024
       parent: 2
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
 - proto: MaterialDurathread
   entities:
   - uid: 9592
@@ -126142,7 +126122,7 @@ entities:
       pos: -1.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -92540.984
+      secondsUntilStateChange: -92563.77
       state: Opening
   - uid: 23486
     components:
@@ -126150,7 +126130,7 @@ entities:
       pos: -2.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -82223.82
+      secondsUntilStateChange: -82246.61
       state: Opening
   - uid: 26933
     components:
@@ -170645,7 +170625,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -204263.94
+      secondsUntilStateChange: -204286.72
       state: Opening
   - uid: 10028
     components:
@@ -171060,7 +171040,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -112385.18
+      secondsUntilStateChange: -112407.97
       state: Opening
   - uid: 26858
     components:
