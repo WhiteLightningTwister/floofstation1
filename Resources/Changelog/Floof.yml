@@ -8690,3 +8690,10 @@ Entries:
   id: 927
   time: '2025-11-23T03:51:10.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1551
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: The big diamond lie has been unveiled.
+  id: 928
+  time: '2025-11-23T03:53:04.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1550
