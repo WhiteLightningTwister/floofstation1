@@ -8697,3 +8697,10 @@ Entries:
   id: 928
   time: '2025-11-23T03:53:04.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1550
+- author: router
+  changes:
+    - type: Add
+      message: Ported Resomi laughs from RMC14.
+  id: 929
+  time: '2025-11-24T02:23:44.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1492
