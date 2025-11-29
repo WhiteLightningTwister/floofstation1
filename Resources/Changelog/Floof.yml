@@ -8725,3 +8725,14 @@ Entries:
   id: 932
   time: '2025-11-23T04:37:44.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1547
+- author: SyaoranFox
+  changes:
+    - type: Add
+      message: detective vulps plush texture
+    - type: Add
+      message: prize counter recipe for plush
+    - type: Add
+      message: detective vulps to plush spawner
+  id: 933
+  time: '2025-11-23T04:15:44.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1540
