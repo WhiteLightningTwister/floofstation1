@@ -8680,3 +8680,13 @@ Entries:
   id: 926
   time: '2025-11-23T03:51:48.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1549
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        The "get up automatically" setting should now work as expected. Also, if
+        you are already laying down (e.g. in a bed), you won't be forced to get
+        up after getting stunned, regardless of this setting.
+  id: 927
+  time: '2025-11-23T03:51:10.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1551
