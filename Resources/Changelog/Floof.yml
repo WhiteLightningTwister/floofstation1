@@ -8666,3 +8666,17 @@ Entries:
   id: 925
   time: '2025-11-23T03:24:49.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1465
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the issue where positive traits preceding negative ones could fail
+        to apply due to locally insufficient trait balance. This is all
+        shitcode.
+    - type: Add
+      message: >-
+        There is now a "sorting mode" toggle in the loadouts that lets you
+        change how options are sorted.
+  id: 926
+  time: '2025-11-23T03:51:48.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1549
