@@ -8633,3 +8633,14 @@ Entries:
   id: 922
   time: '2025-11-29T00:21:03.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1553
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Added Borg, Medical Borg, Service Quad Borg and Medical Quad Borg slots
+        to most maps.
+    - type: Tweak
+      message: Small tweaks to a few of the maps.
+  id: 923
+  time: '2025-11-29T01:06:26.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1559
