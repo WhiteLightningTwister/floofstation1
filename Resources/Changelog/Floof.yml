@@ -8718,3 +8718,10 @@ Entries:
   id: 931
   time: '2025-11-23T04:17:51.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1557
+- author: PubliclyExecutedPig
+  changes:
+    - type: Tweak
+      message: Tweaked Kettle's Permabrig
+  id: 932
+  time: '2025-11-23T04:37:44.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1547
