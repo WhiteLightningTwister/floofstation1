@@ -8711,3 +8711,10 @@ Entries:
   id: 930
   time: '2025-11-23T04:15:24.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1532
+- author: KyuPolaris
+  changes:
+    - type: Fix
+      message: Fixed comms consoles not showing job role in announcement
+  id: 931
+  time: '2025-11-23T04:17:51.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1557
