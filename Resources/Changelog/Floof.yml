@@ -8644,3 +8644,12 @@ Entries:
   id: 923
   time: '2025-11-29T01:06:26.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1559
+- author: WhiteLightningTwister
+  changes:
+    - type: Add
+      message: Added Captains Office & Cyorpods to CC.
+    - type: Tweak
+      message: Made map & evac ship adjustment
+  id: 924
+  time: '2025-11-29T16:08:54.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1558
