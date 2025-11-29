@@ -8624,3 +8624,12 @@ Entries:
   id: 921
   time: '2025-11-27T17:06:17.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1566
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Lighthouse now has a full Justice department, better dorms & holopads.
+        See discord for the rest.
+  id: 922
+  time: '2025-11-29T00:21:03.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1553
