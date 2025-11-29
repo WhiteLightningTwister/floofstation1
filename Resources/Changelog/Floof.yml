@@ -8605,3 +8605,42 @@ Entries:
   id: 919
   time: '2025-11-17T20:22:18.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1548
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        Epistemics can now research the cloning pod as a tier 3 experimental
+        technology, with a relatively low softcap multiplier.
+  id: 920
+  time: '2025-11-24T06:06:10.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1562
+- author: HR Department
+  changes:
+    - type: Add
+      message: >-
+        HR was contacted over this issue, we've added a whole ass filled
+        Nitrogen Tank for Vox to take in the loadout. This was just hindsight,
+        the Vox will not be suing us over this.
+  id: 921
+  time: '2025-11-27T17:06:17.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1566
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Lighthouse now has a full Justice department, better dorms & holopads.
+        See discord for the rest.
+  id: 922
+  time: '2025-11-29T00:21:03.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1553
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Added Borg, Medical Borg, Service Quad Borg and Medical Quad Borg slots
+        to most maps.
+    - type: Tweak
+      message: Small tweaks to a few of the maps.
+  id: 923
+  time: '2025-11-29T01:06:26.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1559

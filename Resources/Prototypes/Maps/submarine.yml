@@ -79,8 +79,11 @@
             Quartermaster: [ 1, 1 ]
             InventorySpecialist: [ 1, 1 ] #FloofStation
           #Silicon
+            # StationAi: [ 1, 1 ] #Floofstation - uncomment when we want enabled
             Borg: [ 2, 3 ]
             MedicalBorg: [ 2, 3 ]
+            ServiceQuadBorg: [ 2, 3 ] #Floofstation
+            MedicalQuadBorg: [ 2, 3 ] #Floofstation
           # Justice added by FloofStation
             ChiefJustice: [ 1, 1 ] #FloofStation
             Clerk: [ 1, 1 ] #FloofStation
