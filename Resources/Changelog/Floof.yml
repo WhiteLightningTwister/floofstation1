@@ -8653,3 +8653,16 @@ Entries:
   id: 924
   time: '2025-11-29T16:08:54.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1558
+- author: Dogbone10
+  changes:
+    - type: Add
+      message: >-
+        Dragons and Raptors now have player-ready variants. Ask an admin for
+        one!
+    - type: Tweak
+      message: Adjusted Dragon and Laser Raptor bodyparts.
+    - type: Fix
+      message: Fix Librarian PDA's ID light and flashlight overlays.
+  id: 925
+  time: '2025-11-23T03:24:49.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1465
